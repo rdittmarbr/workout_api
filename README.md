@@ -81,3 +81,18 @@ SQLAlchemy: https://docs.sqlalchemy.org/en/20/
 Alembic: https://alembic.sqlalchemy.org/en/latest/
 
 Fastapi-pagination: https://uriyyo-fastapi-pagination.netlify.app/
+
+
+## Refatoração
+
+Foi refatorado parcialmente o código
+
+### routes
+Melhoria na nomeação de variaveis e inclusão de comentários
+
+### atleta
+redução da duplicação de códigos, melhoria na leitura, ordenação de atribuots, inclusão do created_at default
+utilização do termo annotated, melhorando a clareza dos tipos e campo
+
+### categorias
+Melhoria na Consistência dos nomes de funções, tratamento de excesssões e limpeza do código
